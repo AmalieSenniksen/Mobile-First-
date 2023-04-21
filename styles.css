@@ -7,27 +7,32 @@
 /*fonte*/
 
 h1{
-    font-family: lato;
+    font-family: 'lato',sans-serif;
     font-weight: light;
     text-transform: uppercase;
     color: #871101;
 }
 
 h2{
-    font-family: lato;
+    font-family: 'lato', sans-serif;
     font-weight: light;
     text-transform: uppercase;
     color: #871101;
 }
 
 h3 /*plakat titel*/ {
-    font-family: lato;
+    font-family: 'lato',sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     color:#871101;
 }
 
 h4 /*25kr og 70x100cm*/{
-    font-family: lato;
+    font-family: 'lato', sans-serif;
 
+}
+
+/*fake ikoner og mere*/
+#burgermenu{
+    di
 }
