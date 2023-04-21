@@ -4,18 +4,25 @@
     text-decoration: none;
 }
 
+main{
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 /*fonte*/
 
 h1{
     font-family: 'lato',sans-serif;
-    font-weight: light;
+    font-weight: lighter;
+    text-align: center;
     text-transform: uppercase;
     color: #871101;
 }
 
 h2{
     font-family: 'lato', sans-serif;
-    font-weight: light;
+    font-weight: lighter;
     text-transform: uppercase;
     color: #871101;
 }
@@ -32,6 +39,16 @@ h4 /*25kr og 70x100cm*/{
 
 }
 
+p{
+    font-family: 'lato', sans-serif;
+    color: #871101;
+}
+
+.brødtekst{
+    font-family: 'oxygen', sans-serif;
+    color: #871101;
+}
+
 /*fake ikoner og mere*/
 #burgermenu{
     width: 50px;
@@ -43,3 +60,18 @@ h4 /*25kr og 70x100cm*/{
     border-color: black;
 
 }
+
+
+#bruger{
+    text-align: right;
+}
+
+#mail{
+    text-align: left;
+}
+
+#logind{
+    display: flex;
+    justify-content: space-between;
+}
+
