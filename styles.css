@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*fonte*/
+
+h1{
+    font-family: lato;
+    font-weight: light;
+    text-transform: uppercase;
+    color: #871101;
+}
+
+h2{
+    font-family: lato;
+    font-weight: light;
+    text-transform: uppercase;
+    color: #871101;
+}
+
+h3 /*plakat titel*/ {
+    font-family: lato;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#871101;
+}
+
+h4 /*25kr og 70x100cm*/{
+    font-family: lato;
+
+}
