@@ -10,6 +10,26 @@ main{
     margin-right: 7%;
 }
 
+header{
+    display: flex;
+    justify-content:center;
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.ikonerleft{
+    display: flex;
+    margin-right: 20%;
+    gap: 10%;
+}
+
+.ikonerright{
+    display: flex;
+    margin-left: 20%;
+    gap: 10%;
+}
+
 /*fonte*/
 
 h1{
@@ -42,6 +62,11 @@ h4 /*25kr og 70x100cm*/{
 p{
     font-family: 'lato', sans-serif;
     color: #871101;
+}
+
+footer p{
+    font-family: 'lato', sans-serif;
+    color: white;
 }
 
 .brødtekst{
@@ -92,6 +117,19 @@ p{
     border-radius: 20px;
 }
 
+#bruger{
+    text-align: right;
+}
+
+#mail{
+    text-align: left;
+}
+
+#logind{
+    display: flex;
+    justify-content: space-between;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -106,17 +144,4 @@ footer section{
     margin-right: 7%;
 }
 
-
-#bruger{
-    text-align: right;
-}
-
-#mail{
-    text-align: left;
-}
-
-#logind{
-    display: flex;
-    justify-content: space-between;
-}
 
