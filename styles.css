@@ -5,10 +5,18 @@
     background-color: #FFF6F4;;
 }
 
+#banner{
+    border-style: solid;
+    border-color: black;
+
+    margin-bottom: 10%;
+    width: 100%;
+}
+
 main{
     margin-top: 10%;
-    margin-left: 7%;
-    margin-right: 7%;
+   /* margin-left: 7%;
+    margin-right: 7%;*/
 
     background-color: #FFF6F4;
 }
