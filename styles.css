@@ -4,6 +4,30 @@
     text-decoration: none;
 }
 
+/*nav*/
+header{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+header .ikonerleft{
+    display: flex;
+    margin-right: 20%;
+    gap: 10%;
+}
+   
+
+header .ikonerright{
+  display: flex;
+  margin-left: 20%;
+  gap: 10%;
+}
+
+header 
+
 /*fonte*/
 
 h1{
@@ -32,14 +56,64 @@ h4 /*25kr og 70x100cm*/{
 
 }
 
+footer p{
+    font-family: 'lato', sans-serif;
+    color: white
+}
+
 /*fake ikoner og mere*/
 #burgermenu{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#serch{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#favoritter{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#kurv{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 80px;
+    height: 54px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+.some{
     width: 50px;
     height: 50px;
     background-color: white;
     border-radius: 20px;
+}
 
-    border-style: solid;
-    border-color: black;
+footer{
+    display: flex;
+    justify-content: space-between;
 
+    background-color: #871101;
+}
+
+footer section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
