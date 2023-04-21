@@ -2,12 +2,15 @@
     margin:0px;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: #FFF6F4;;
 }
 
 main{
     margin-top: 10%;
     margin-left: 7%;
     margin-right: 7%;
+
+    background-color: #FFF6F4;
 }
 
 header{
@@ -16,6 +19,7 @@ header{
 
     margin-top: 5%;
     margin-bottom: 2%;
+
 }
 
 .ikonerleft{
@@ -142,6 +146,11 @@ footer section{
     margin-bottom: 10%;
     margin-left: 7%;
     margin-right: 7%;
+    background-color: #871101;
+}
+
+footer section p{
+    background-color: #871101;
 }
 
 
