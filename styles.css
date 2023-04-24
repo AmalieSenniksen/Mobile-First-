@@ -14,29 +14,15 @@ main{
 }
 
 header{
+    position: sticky;
     display: flex;
     justify-content:center;
-
+    justify-content: space-around;
     margin-top: 5%;
     margin-bottom: 2%;
 
 }
 
-.ikonerleft{
-    display: flex;
-    margin-top: 5%;
-    margin-right: 11%;
-    margin-top: 5%;
-    gap: 20%;
-}
-
-.ikonerright{
-    display: flex;
-    margin-top: 5%;
-    margin-left: 11%;
-    margin-top: 5%;
-    gap: 20%;
-}
 
 /*fonte*/
 
@@ -60,13 +46,15 @@ h3 /*plakat titel*/ {
     font-weight: bold;
     text-transform: uppercase;
     color:#871101;
+    line-height: 20px;
 }
 
-h4 {
+h4 /*størrelse og pris*/ {
     font-family: 'lato', sans-serif;
     font-weight: lighter;
     color:#871101;
     color: #871101;
+    line-height: 30px;
 
 }
 
@@ -94,30 +82,24 @@ footer p{
 }
 
 /*fake ikoner og mere*/
-#burgermenu{
-    width: 30px;
-    height: 30px;
+
+.mobilikoner{
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+    gap:10px;
+    margin-top: 30px;
 }
 
-#serch{
-    width: 30px;
-    height: 30px;
-    padding-left: 8px;
-    padding-top: 2px;
+#laptopikoner{
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+    gap:10px;
+    margin-top: 30px;
 }
 
-#favoritter{
-    width: 30px;
-    height: 30px;
-    padding-top: 5px;
-}
-
-#kurv{
-    width: 30px;
-    height: 30px;
-}
-
-#logo{
+.logo{
     padding: auto;
 }
 
@@ -156,9 +138,10 @@ a{
     border-radius: 20px;
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: grey;
+    font-size: 11px;
     color: white;
 }
 
@@ -181,6 +164,11 @@ a{
     padding-bottom: 10px;
     background-color: white;
     color: #871101;
+}
+
+#inspirationsknap{
+    margin-left: 5%;
+    margin-top: 30px;
 }
 
 /*billeder*/
@@ -263,7 +251,8 @@ a{
 footer{
     display: flex;
     justify-content: space-between;
-
+    width: 100%;
+    bottom: 0;
     background-color: #871101;
 }
 
@@ -279,44 +268,38 @@ footer section p{
     background-color: #871101;
 }
 
-/*responsive*/
-/*mobil*/
-
-@media screen and (max-width:1300px){
-    #karrusellaptop{
-        display: none;
-    }
-
-}
-
-@media screen and (min-width:1300px){
-    #karruselmobil{
-        display: none;
-    }
-
-}
-
-
-
 
 /* --------RESPONSIVE WEBDESIGN-------- */
 
-/* MOBILE: */
-@media only screen and (max-width:768px){
+
+/* MOBIL: */
+@media screen and (max-width:768px){
     #laptopmenu{
         display:none;
     }
     #mobilmenu{
         display:flex;
     }
+    #karrusellaptop{
+        display: none;
+    }
 }
 
 /* LAPTOP: */
-@media only screen and (min-width:768px){
+@media screen and (min-width:768px){
     #laptopmenu{
-        display:block;
+        display:flex;
     }
     #mobilmenu{
         display:none;
     }
+    #karruselmobil{
+        display: none;
+    }
+
+    #favoritter{
+        display: flex;
+
+    }
+
 }
