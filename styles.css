@@ -2,6 +2,36 @@
     margin:0px;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: #FFF6F4;;
+}
+
+main{
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+
+    background-color: #FFF6F4;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.ikonerleft{
+    display: flex;
+    margin-right: 20%;
+    gap: 10%;
+}
+
+.ikonerright{
+    display: flex;
+    margin-left: 20%;
+    gap: 10%;
 }
 
 /*fonte*/
@@ -9,6 +39,7 @@
 h1{
     font-family: 'lato',sans-serif;
     font-weight: lighter;
+    text-align: center;
     text-transform: uppercase;
     color: #871101;
 }
@@ -32,19 +63,159 @@ h4 /*25kr og 70x100cm*/{
 
 }
 
+p{
+    font-family: 'lato', sans-serif;
+    color: #871101;
+}
+
+footer p{
+    font-family: 'lato', sans-serif;
+    color: white;
+}
+
+.brødtekst{
+    font-family: 'oxygen', sans-serif;
+    color: #871101;
+}
+
 /*fake ikoner og mere*/
 #burgermenu{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#serch{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#favoritter{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#kurv{
+    width: 30px;
+    height: 30px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 80px;
+    height: 54px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+.some{
     width: 50px;
     height: 50px;
     background-color: white;
     border-radius: 20px;
+}
 
-    border-style: solid;
-    border-color: black;
+#bruger{
+    text-align: right;
+}
 
+#mail{
+    text-align: left;
+}
+
+#logind{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*knapper*/
+
+a{
+    font-family:'lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.gråknap {
+    border-style: none;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+}
+
+.rødknap{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #871101;
+}
+
+/*billeder*/
+
+#inspiration{
+    width: 100%;
+    margin: 0px;
+
+    margin-bottom: 5%;
+}
+
+#karrusellaptop{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
+    margin-top: 10%;
+    width: 100%;
+}
+
+#billede1{
+    z-index: 0;
+}
+
+#billede2{
+    z-index: 0
+}
+
+#billede3{
+    z-index: 1;
+   
 }
 
 
+/*footer*/
 
-/*FORSIDE----------------------------------------*/
+footer{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #871101;
+}
+
+footer section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: #871101;
+}
+
+footer section p{
+    background-color: #871101;
+}
+
+
 
