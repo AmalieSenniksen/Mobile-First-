@@ -312,6 +312,10 @@ a{
     
 }
 
+/*Min konto*/
+.minkonto  {justify-content: center;
+            width: 50%;}
+
 /*footer*/
 
 footer{
