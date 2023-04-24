@@ -203,6 +203,7 @@ a{
 
 #billede3l{
     z-index: 1;
+<<<<<<< HEAD
     transform: translate(-105%, -10%);
 }
 
@@ -216,8 +217,42 @@ a{
 
 #tema{
     width: 100%;
+=======
+   
+>>>>>>> cd9b681e84f0c8c2e1eb5caf8686bf4e2ff6c721
 }
 
+/*FORSIDE*/
+.kort {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.kort > section{
+    width: 152px;
+    height: 350px;
+    margin:5%;
+}
+
+.FilterOGsorter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.linje1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.linje3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 /*footer*/
 
@@ -256,7 +291,6 @@ footer section p{
     }
 
 }
-
 
 
 
