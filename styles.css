@@ -73,9 +73,10 @@ footer p{
     color: white;
 }
 
-.brødtekst{
+#brødtekst{
     font-family: 'oxygen', sans-serif;
     color: #871101;
+    line-height: 1.5;
 }
 
 /*fake ikoner og mere*/
@@ -152,6 +153,7 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: grey;
+    color: white;
 }
 
 .rødknap{
@@ -162,6 +164,17 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #871101;
+}
+
+.hvidknap{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: #871101;
 }
 
 /*billeder*/
@@ -225,6 +238,15 @@ a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/* om plakaten */
+.plakatlinje{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*footer*/
