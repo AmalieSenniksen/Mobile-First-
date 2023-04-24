@@ -83,6 +83,7 @@ footer p{
 #overskrift{
     display: flex;
     justify-content: space-between;
+    width: 390px;
 
     margin-top: 30%;
 }
@@ -147,7 +148,6 @@ footer p{
 
 a{
     font-family:'lato', sans-serif;
-    text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
@@ -171,6 +171,24 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #871101;
+}
+
+#hvidknap{
+    border-style: none;
+    border-radius: 20px;
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: #FFF6F4;
+    
+    color:#871101;
+    font-weight: lighter;
+
+   
+    margin-left: 30%;
 }
 
 /*billeder*/
@@ -203,7 +221,6 @@ a{
 
 #billede3l{
     z-index: 1;
-<<<<<<< HEAD
     transform: translate(-105%, -10%);
 }
 
@@ -212,14 +229,18 @@ a{
     justify-content: center;
 
     width: 100%;
-    
 }
 
-#tema{
-    width: 100%;
-=======
-   
->>>>>>> cd9b681e84f0c8c2e1eb5caf8686bf4e2ff6c721
+#temabilledemobil{
+    background-image: url(images/tema_ingmar390px.png);
+    height: 539px;
+    width: 390px;
+    margin-bottom: 10%;
+}
+
+#temabilledelaptop{
+    background-image: url(images/tema_ingmar.png);
+    margin-bottom: 10%;
 }
 
 /*FORSIDE*/
@@ -283,10 +304,18 @@ footer section p{
         display: none;
     }
 
+    #temalaptop{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:1300px){
     #karruselmobil{
+        display: none;
+    }
+
+    #temamobil{
         display: none;
     }
 
