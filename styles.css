@@ -134,6 +134,70 @@ footer p{
     justify-content: space-between;
 }
 
+/*knapper*/
+
+a{
+    font-family:'lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.gråknap {
+    border-style: none;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+}
+
+.rødknap{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #871101;
+}
+
+/*billeder*/
+
+#inspiration{
+    width: 100%;
+    margin: 0px;
+
+    margin-bottom: 5%;
+}
+
+#karrusellaptop{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
+    margin-top: 10%;
+    width: 100%;
+}
+
+#billede1{
+    z-index: 0;
+}
+
+#billede2{
+    z-index: 0
+}
+
+#billede3{
+    z-index: 1;
+    left: 
+}
+
+
+/*footer*/
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -152,5 +216,6 @@ footer section{
 footer section p{
     background-color: #871101;
 }
+
 
 
