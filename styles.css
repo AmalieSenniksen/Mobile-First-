@@ -216,7 +216,6 @@ a{
 
 #billede3l{
     z-index: 1;
-<<<<<<< HEAD
     transform: translate(-105%, -10%);
 }
 
@@ -230,9 +229,6 @@ a{
 
 #tema{
     width: 100%;
-=======
-   
->>>>>>> cd9b681e84f0c8c2e1eb5caf8686bf4e2ff6c721
 }
 
 /*FORSIDE*/
@@ -270,10 +266,22 @@ a{
 /* om plakaten */
 .plakatlinje{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    gap: 10%;
+}
+
+.omplakaten{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 10%;
+
+}
+
+.tekstbox{
+    width: 50%;
+    
 }
 
 /*footer*/
@@ -305,10 +313,27 @@ footer section p{
         display: none;
     }
 
+    #stillelivlaptop{
+        display: none;
+    }
+
+    .omplakaten{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: left;
+
+    
+    }
+
 }
 
 @media screen and (min-width:1300px){
     #karruselmobil{
+        display: none;
+    }
+
+    #stillelivmobil{
         display: none;
     }
 
