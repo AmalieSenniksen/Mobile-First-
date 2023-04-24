@@ -47,7 +47,6 @@ h1{
 h2{
     font-family: 'lato', sans-serif;
     font-weight: lighter;
-    text-transform: uppercase;
     color: #871101;
 }
 
@@ -174,22 +173,14 @@ a{
     padding-bottom: 10px;
     background-color: #871101;
 }
-
-<<<<<<< HEAD
+    
 #hvidknap{
     border-style: none;
     border-radius: 20px;
-    
-=======
-.hvidknap{
-    border-style: none;
-    border-radius: 20px;
->>>>>>> 84918291f8e71ea8e2f6e9704ce1ee42eebc77ec
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
-<<<<<<< HEAD
     
     background-color: #FFF6F4;
     
@@ -198,10 +189,8 @@ a{
 
    
     margin-left: 30%;
-=======
     background-color: white;
     color: #871101;
->>>>>>> 84918291f8e71ea8e2f6e9704ce1ee42eebc77ec
 }
 
 /*billeder*/
@@ -252,8 +241,18 @@ a{
 }
 
 #temabilledelaptop{
-    background-image: url(images/tema_ingmar.png);
+    background-image: url(images/ingmarbergman1500px.jpg);
+    height: 878px;
     margin-bottom: 10%;
+}
+
+#temabilledelaptop h2{
+    margin-left: 10%;
+    background-color: transparent;
+}
+
+#temabilledelaptop .rødknap{
+    margin-left: 10%;
 }
 
 /*FORSIDE*/
@@ -330,6 +329,10 @@ footer section p{
         display: none;
     }
 
+    #temabilledelaptop{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:1300px){
@@ -338,6 +341,10 @@ footer section p{
     }
 
     #temamobil{
+        display: none;
+    }
+
+    #temabilledemobil{
         display: none;
     }
 
