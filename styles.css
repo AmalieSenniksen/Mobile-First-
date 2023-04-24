@@ -75,9 +75,10 @@ footer p{
     color: white;
 }
 
-.brødtekst{
+#brødtekst{
     font-family: 'oxygen', sans-serif;
     color: #871101;
+    line-height: 1.5;
 }
 
 #overskrift{
@@ -161,6 +162,7 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: grey;
+    color: white;
 }
 
 .rødknap {
@@ -173,14 +175,21 @@ a{
     background-color: #871101;
 }
 
+<<<<<<< HEAD
 #hvidknap{
     border-style: none;
     border-radius: 20px;
     
+=======
+.hvidknap{
+    border-style: none;
+    border-radius: 20px;
+>>>>>>> 84918291f8e71ea8e2f6e9704ce1ee42eebc77ec
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
+<<<<<<< HEAD
     
     background-color: #FFF6F4;
     
@@ -189,6 +198,10 @@ a{
 
    
     margin-left: 30%;
+=======
+    background-color: white;
+    color: #871101;
+>>>>>>> 84918291f8e71ea8e2f6e9704ce1ee42eebc77ec
 }
 
 /*billeder*/
@@ -273,6 +286,15 @@ a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/* om plakaten */
+.plakatlinje{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*footer*/
