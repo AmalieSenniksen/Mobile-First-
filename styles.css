@@ -173,7 +173,7 @@ a{
     padding-bottom: 10px;
     background-color: #871101;
 }
-    
+
 #hvidknap{
     border-style: none;
     border-radius: 20px;
@@ -233,10 +233,10 @@ a{
     width: 100%;
 }
 
-<<<<<<< HEAD
 #tema{
     width: 100%;
-=======
+}
+
 #temabilledemobil{
     background-image: url(images/tema_ingmar390px.png);
     height: 539px;
@@ -257,7 +257,6 @@ a{
 
 #temabilledelaptop .rødknap{
     margin-left: 10%;
->>>>>>> ef05610cf05b98c72c86fe69f8571eec0ff0727e
 }
 
 /*FORSIDE*/
@@ -322,7 +321,7 @@ footer{
     background-color: #871101;
 }
 
-footer section{
+ footer section{
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 7%;
@@ -341,8 +340,9 @@ footer section p{
     #karrusellaptop{
         display: none;
     }
+}
 
-<<<<<<< HEAD
+ HEAD
     #stillelivlaptop{
         display: none;
     }
@@ -353,37 +353,35 @@ footer section p{
 
         justify-content: left;
 
-    
-=======
-    #temalaptop{
-        display: none;
+        
     }
 
     #temabilledelaptop{
         display: none;
->>>>>>> ef05610cf05b98c72c86fe69f8571eec0ff0727e
-    }
-
-}
+        }
 
 @media screen and (min-width:1300px){
     #karruselmobil{
         display: none;
     }
 
-<<<<<<< HEAD
+}
+
+HEAD
     #stillelivmobil{
-=======
+        display: none;
+    }
+
+
     #temamobil{
         display: none;
     }
 
     #temabilledemobil{
->>>>>>> ef05610cf05b98c72c86fe69f8571eec0ff0727e
         display: none;
     }
 
-}
+
 
 
 
