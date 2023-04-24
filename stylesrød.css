@@ -4,7 +4,52 @@
     text-decoration: none;
     background-color: #871101;}
 
-main{background-color: #871101;}
+main{
+    background-color: #871101;
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+/*fonte*/
+h1{
+    font-family: 'lato',sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2{
+    font-family: 'lato', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+h3 /*plakat titel*/ {
+    font-family: 'lato',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+}
+
+h4 {
+    font-family: 'lato', sans-serif;
+    font-weight: lighter;
+    color: white;
+
+}
+
+p{
+    font-family: 'lato', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.overskriftburgermenu{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 
 /*fake ikoner og mere*/
