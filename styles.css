@@ -58,8 +58,10 @@ h3 /*plakat titel*/ {
     color:#871101;
 }
 
-h4 /*25kr og 70x100cm*/{
+h4 {
     font-family: 'lato', sans-serif;
+    font-weight: lighter;
+    color: #871101;
 
 }
 
@@ -77,6 +79,13 @@ footer p{
     font-family: 'oxygen', sans-serif;
     color: #871101;
     line-height: 1.5;
+}
+
+#overskrift{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30%;
 }
 
 /*fake ikoner og mere*/
@@ -156,7 +165,7 @@ a{
     color: white;
 }
 
-.rødknap{
+.rødknap {
     border-style: none;
     border-radius: 20px;
     padding-left: 2%;
@@ -195,17 +204,35 @@ a{
     width: 100%;
 }
 
-#billede1{
+#billede1l{
     z-index: 0;
+    transform: translateX(50%);
 }
 
-#billede2{
-    z-index: 0
+#billede2l{
+    z-index: 0;
+    transform: translateX(120%);
 }
 
-#billede3{
+#billede3l{
     z-index: 1;
+<<<<<<< HEAD
+    transform: translate(-105%, -10%);
+}
+
+#karruselmobil{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    
+}
+
+#tema{
+    width: 100%;
+=======
    
+>>>>>>> cd9b681e84f0c8c2e1eb5caf8686bf4e2ff6c721
 }
 
 /*FORSIDE*/
@@ -269,5 +296,24 @@ footer section{
 footer section p{
     background-color: #871101;
 }
+
+/*responsive*/
+/*mobil*/
+
+@media screen and (max-width:1300px){
+    #karrusellaptop{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1300px){
+    #karruselmobil{
+        display: none;
+    }
+
+}
+
+
 
 
