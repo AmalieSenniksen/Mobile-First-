@@ -24,14 +24,18 @@ header{
 
 .ikonerleft{
     display: flex;
-    margin-right: 20%;
-    gap: 10%;
+    margin-top: 5%;
+    margin-right: 11%;
+    margin-top: 5%;
+    gap: 20%;
 }
 
 .ikonerright{
     display: flex;
-    margin-left: 20%;
-    gap: 10%;
+    margin-top: 5%;
+    margin-left: 11%;
+    margin-top: 5%;
+    gap: 20%;
 }
 
 /*fonte*/
@@ -60,6 +64,8 @@ h3 /*plakat titel*/ {
 
 h4 /*25kr og 70x100cm*/{
     font-family: 'lato', sans-serif;
+    font-weight: lighter;
+    color:#871101;
 
 }
 
@@ -82,36 +88,28 @@ footer p{
 #burgermenu{
     width: 30px;
     height: 30px;
-    background-color: #871101;
-    border-radius: 20px;
 }
 
 #serch{
     width: 30px;
     height: 30px;
-    background-color: #871101;
-    border-radius: 20px;
+    padding-left: 8px;
+    padding-top: 2px;
 }
 
 #favoritter{
     width: 30px;
     height: 30px;
-    background-color: #871101;
-    border-radius: 20px;
+    padding-top: 5px;
 }
 
 #kurv{
     width: 30px;
     height: 30px;
-    background-color: #871101;
-    border-radius: 20px;
 }
 
 #logo{
-    width: 80px;
-    height: 54px;
-    background-color: #871101;
-    border-radius: 20px;
+    padding: auto;
 }
 
 .some{
@@ -206,13 +204,14 @@ a{
 .kort > section{
     width: 152px;
     height: 350px;
-    margin:5%;
+    margin-top:8%;
 }
 
-.FilterOGsorter{
+.filterogsorter{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 
 .linje1{
@@ -240,7 +239,7 @@ footer section{
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 7%;
-    margin-right: 7%;
+    margin-right: 12%;
     background-color: #871101;
 }
 
@@ -249,3 +248,24 @@ footer section p{
 }
 
 
+/* --------RESPONSIVE WEBDESIGN-------- */
+
+/* MOBILE: */
+@media only screen and (max-width:768px){
+    #laptopmenu{
+        display:none;
+    }
+    #mobilmenu{
+        display:flex;
+    }
+}
+
+/* LAPTOP: */
+@media only screen and (min-width:768px){
+    #laptopmenu{
+        display:block;
+    }
+    #mobilmenu{
+        display:none;
+    }
+}
