@@ -47,7 +47,6 @@ h1{
 h2{
     font-family: 'lato', sans-serif;
     font-weight: lighter;
-    text-transform: uppercase;
     color: #871101;
 }
 
@@ -84,6 +83,7 @@ footer p{
 #overskrift{
     display: flex;
     justify-content: space-between;
+    width: 390px;
 
     margin-top: 30%;
 }
@@ -148,7 +148,6 @@ footer p{
 
 a{
     font-family:'lato', sans-serif;
-    text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
@@ -174,14 +173,22 @@ a{
     padding-bottom: 10px;
     background-color: #871101;
 }
-
-.hvidknap{
+    
+#hvidknap{
     border-style: none;
     border-radius: 20px;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
+    
+    background-color: #FFF6F4;
+    
+    color:#871101;
+    font-weight: lighter;
+
+   
+    margin-left: 30%;
     background-color: white;
     color: #871101;
 }
@@ -224,11 +231,33 @@ a{
     justify-content: center;
 
     width: 100%;
-    
 }
 
+<<<<<<< HEAD
 #tema{
     width: 100%;
+=======
+#temabilledemobil{
+    background-image: url(images/tema_ingmar390px.png);
+    height: 539px;
+    width: 390px;
+    margin-bottom: 10%;
+}
+
+#temabilledelaptop{
+    background-image: url(images/ingmarbergman1500px.jpg);
+    height: 878px;
+    margin-bottom: 10%;
+}
+
+#temabilledelaptop h2{
+    margin-left: 10%;
+    background-color: transparent;
+}
+
+#temabilledelaptop .rødknap{
+    margin-left: 10%;
+>>>>>>> ef05610cf05b98c72c86fe69f8571eec0ff0727e
 }
 
 /*FORSIDE*/
@@ -313,6 +342,7 @@ footer section p{
         display: none;
     }
 
+<<<<<<< HEAD
     #stillelivlaptop{
         display: none;
     }
@@ -324,6 +354,14 @@ footer section p{
         justify-content: left;
 
     
+=======
+    #temalaptop{
+        display: none;
+    }
+
+    #temabilledelaptop{
+        display: none;
+>>>>>>> ef05610cf05b98c72c86fe69f8571eec0ff0727e
     }
 
 }
@@ -333,7 +371,15 @@ footer section p{
         display: none;
     }
 
+<<<<<<< HEAD
     #stillelivmobil{
+=======
+    #temamobil{
+        display: none;
+    }
+
+    #temabilledemobil{
+>>>>>>> ef05610cf05b98c72c86fe69f8571eec0ff0727e
         display: none;
     }
 
