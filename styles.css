@@ -6,7 +6,7 @@
 }
 
 main{
-    margin-top: 10%;
+    margin-top: 70px;
     margin-left: 7%;
     margin-right: 7%;
 
@@ -64,7 +64,7 @@ footer p{
     color: white;
 }
 
-#brødtekst{
+.brødtekst{
     font-family: 'oxygen', sans-serif;
     color: #871101;
     line-height: 1.5;
@@ -111,7 +111,6 @@ footer p{
 }
 
 .logo{
-    padding: auto;
     padding-top: 10px;
 }
 
