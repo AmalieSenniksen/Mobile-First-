@@ -10,29 +10,63 @@
     <head>
     </head>
     <body>
-        <header>
-            <div class="ikonerleft">
-                <div id="burgermenu"></div>
-                <div id="serch"></div>
+        <header id="mobilmenu">
+            <div class="mobilikoner">
+                <a href="burgermenu.html"><img id="burgermenu" src="images/burgermenu.png" alt="burgermenuikon"></a>
+                <a href=""><img src="images/søg.png" alt="søg"></a>
+            </div>
+            
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_billede.png" alt="Logo"></a>
+            </div>
+
+            <div class="mobilikoner">
+                <a href="favoritter.html"><img src="images/favorit.png" alt="favorit"></a>
+                <a href="kurv.html"><img src="images/kurv.png" alt="kurv"></a>
+            </div>  
+        </header>
+
+        <header id="laptopmenu">
+            <div>
+                <a href="inspiration.html"><h4 id="inspirationsknap">INSPIRATION</h4></a>
             </div>
         
-            <div id="logo"></div>
-
-            <div class="ikonerright">
-                <div id="favoritter"></div>
-                <div id="kurv"></div>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_billede.png" alt="Logo"></a>
             </div>
+
+            
+            <div id="laptopikoner">
+                <a href=""><img src="images/søg.png" alt="Loop Ikon"></a>
+                <a href="minkonto.html"><img src="images/profil.png" alt="Profil Ikon"></a>
+                <a href="favoritter.html"><img src="images/favorit.png" alt="Fyldt Hjerte Ikon"></a>
+                <a href="kurv.html"><img src="images/kurv.png" alt="Kurv Ikon"></a>
+            </div>
+            
         </header>
 
         <main>
-            <img id="billedelille" src="images/stillelivlille.jpg">
             <div class="omplakaten">
+
+            <section id="stillelivmobil">
+                <img src="images/stillelivlille.jpg">
+            </section>
+            
+            <section id="stillelivlaptop">
+                <img src="images/stillelivstor.jpg">
+            </section>
+            
+
+            <div class="tekstbox">
                 <h2>STILLE LIV</h2>
                 <p>70 x 100 cm</p>
+
+            <section class=omplakat>
                 <div class="plakatlinje">
-                    <p class="hvidknap">- 1 +</p>
-                    <p class="gråknap">Føj til kurv</p>
+                    <a href="" id="hvidknap2">- 1 +</a>
+                    <a href="" class="gråknap">Føj til kurv</a>
                 </div>
+
                 <p id="brødtekst">
                 Den 19-årige Carl, lever et stille liv på landet med sine forældre. 
                 Hans skæbne er forudbestemt, for som eneste søn skal han overtage forældrenes slægtsgård 
@@ -43,6 +77,16 @@
                 og en drøm om at finde sin rette plads og sine egne rødder. Splittet mellem to verdener må Carl træffe et valg om, 
                 hvor han skal høre til - også selvom det måske vil gøre ondt på dem, som han holder af.
                 </p>
+
+                <br>
+                <p id="brødtekst">
+                STILLE LIV er en ny dansk film med Bodil Jørgensen, Bjarne Henriksen og debutanten Cornelius Won Riedel-Clausen 
+                i hovedrollerne. 
+                </p>
+            </section>
+            </div>
+
+                
             </div>
         </main>
 
@@ -56,11 +100,18 @@
                 <p>kontor@paradisbio.dk</p>
             </section>
 
-            <section>
-                <div class="some"></div>
+            <section id="footerlaptop">
                 <br>
-                <div class="some"></div>
+                <a href="kontaktos.html">KONTAKT</a>
+                <br>
+                <a href="">FAQ</a>
             </section>
+
+            <section class="some">
+                <a href=""><img src="images/facebook.png" alt="facebook"></a>
+                <a href=""><img src="images/instagram.png" alt="instagram"></a>
+            </section>
+
         </footer>
     </body>
     </html>

@@ -1,0 +1,129 @@
+*{  padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #871101;}
+
+main{
+    background-color: #871101;
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.mobilikoner{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    height: 30px;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+/*fonte*/
+h1{
+    font-family: 'lato',sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2{
+    font-family: 'lato', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+h3 /*plakat titel*/ {
+    font-family: 'lato',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+}
+
+h4 {
+    font-family: 'lato', sans-serif;
+    font-weight: lighter;
+    color: white;
+
+}
+
+p{
+    font-family: 'lato', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.overskriftburgermenu{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/*fake ikoner og mere*/
+#burgermenu{
+    width: 30px;
+    height: 30px;
+    background-color: #FFF6F4;
+    border-radius: 20px;
+}
+
+#serch{
+    width: 30px;
+    height: 30px;
+    background-color: #FFF6F4;
+    border-radius: 20px;
+}
+
+#favoritter{
+    width: 30px;
+    height: 30px;
+    background-color: #FFF6F4;
+    border-radius: 20px;
+}
+
+#kurv{
+    width: 30px;
+    height: 30px;
+    background-color: #FFF6F4;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 80px;
+    height: 54px;
+    background-color: #FFF6F4;
+    border-radius: 20px;
+}
+
+.some{
+    width: 50px;
+    height: 50px;
+    background-color: #871101;
+    border-radius: 20px;
+}
+
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #FFF6F4;
+}
+
+footer section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: #FFF6F4;
+}
+
+footer section p{
+    background-color: #FFF6F4;
+}

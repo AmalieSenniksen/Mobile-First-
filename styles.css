@@ -23,7 +23,10 @@ header{
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 /*fonte*/
 
 h1{
@@ -37,7 +40,6 @@ h1{
 h2{
     font-family: 'lato', sans-serif;
     font-weight: lighter;
-    text-transform: uppercase;
     color: #871101;
 }
 
@@ -55,7 +57,10 @@ h4 /*størrelse og pris*/ {
     color:#871101;
     color: #871101;
     line-height: 30px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 }
 
 p{
@@ -64,7 +69,7 @@ p{
 }
 
 footer p{
-    font-family: 'lato', sans-serif;
+   font-family: 'lato', sans-serif;
     color: white;
 }
 
@@ -77,15 +82,27 @@ footer p{
 #overskrift{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 
     margin-top: 30%;
 }
 
+<<<<<<< HEAD
 /*fake ikoner og mere*/
+=======
+/*ikoner*/
+
+.mobilikoner a{
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+}
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 
 .mobilikoner{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     height: 21px;
     gap:10px;
     margin-top: 30px;
@@ -108,10 +125,37 @@ footer p{
     height: 50px;
     background-color: white;
     border-radius: 20px;
+=======
+    gap:10px;
+    margin-top: 30px;
+}
+
+#burgermenu{
+    height: 21px;
+}
+
+#laptopikoner {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#laptopikoner a{
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+    margin-top: 30px;
+}
+
+.logo{
+    padding: auto;
+    padding-top: 10px;
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 }
 
 #bruger{
-    text-align: right;
+    text-align: center;
+    margin-left: 20%;
 }
 
 #mail{
@@ -120,16 +164,23 @@ footer p{
 
 #logind{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 
 /*knapper*/
 
 a{
     font-family:'lato', sans-serif;
-    text-transform: uppercase;
     text-decoration: none;
     color: white;
+}
+
+#glemt{
+    font-family:'lato', sans-serif;
+    text-decoration: none;
+    color: #871101;
+    margin-top: 10px;
 }
 
 .gråknap {
@@ -143,6 +194,20 @@ a{
     background-color: grey;
     font-size: 11px;
     color: white;
+    /*font-size: 11px;*/
+}
+
+.gråknaplille{
+    border-style: none;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    color: white;
+    font-size: 11px;
 }
 
 .rødknap {
@@ -154,18 +219,43 @@ a{
     padding-bottom: 10px;
     background-color: #871101;
 }
-
-.hvidknap{
+    
+#hvidknap{
     border-style: none;
     border-radius: 20px;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
+    
+    background-color: #FFF6F4;
+    
+    color:#871101;
+    font-weight: lighter;
+
+   
+    margin-left: 30%;
     background-color: white;
     color: #871101;
 }
 
+<<<<<<< HEAD
+=======
+#hvidknap2{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: white;
+    
+    color:#871101;
+    font-weight: lighter;
+}
+
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 #inspirationsknap{
     margin-left: 5%;
     margin-top: 30px;
@@ -183,9 +273,9 @@ a{
 #karrusellaptop{
     display: flex;
     justify-content: center;
-    gap: 10%;
     
     margin-top: 10%;
+    margin-bottom: 20%;
     width: 100%;
 }
 
@@ -201,7 +291,41 @@ a{
 
 #billede3l{
     z-index: 1;
+<<<<<<< HEAD
    
+=======
+    transform: translate(-105%, -10%);
+}
+
+#karruselmobil{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    margin-top: 10%;
+}
+
+#temabilledemobil{
+    background-image: url(images/tema_ingmar390px.png);
+    height: 539px;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+#temabilledelaptop{
+    background-image: url(images/ingmarbergman1500px.jpg);
+    height: 878px;
+    margin-bottom: 10%;
+}
+
+#temabilledelaptop h2{
+    margin-left: 10%;
+    background-color: transparent;
+}
+
+#temabilledelaptop .rødknap{
+    margin-left: 10%;
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 }
 
 /*FORSIDE*/
@@ -238,12 +362,47 @@ a{
 }
 
 /* om plakaten */
-.plakatlinje{
+
+.omplakat{
+    width: 350px;
+}
+
+.omplakat .plakatlinje .gråknap{
+   margin-left: 190px;
+}
+
+.plakatlinje {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     flex-wrap: wrap;
+    
+
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+.omplakaten{
+    display: flex;
+    justify-content: center;
+    gap:10%;
+    margin-bottom: 10%;
+}
+
+.tekstbox{
+    width: 50%;
+}
+
+/*Min konto*/
+#mail p{
+    text-align: center;
+}
+
+.mail1{
+    margin-right: 175px;
+}
+
+.password{
+    margin-right: 160px;
 }
 
 /*footer*/
@@ -254,9 +413,11 @@ footer{
     width: 100%;
     bottom: 0;
     background-color: #871101;
+    margin-top: 10%;
 }
 
 footer section{
+    flex-wrap: wrap;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 7%;
@@ -268,6 +429,7 @@ footer section p{
     background-color: #871101;
 }
 
+<<<<<<< HEAD
 
 /* --------RESPONSIVE WEBDESIGN-------- */
 
@@ -300,6 +462,85 @@ footer section p{
     #favoritter{
         display: flex;
 
+=======
+.some img{
+    height: 70px;
+    display: flex;
+
+    justify-content: left;
+}
+
+#footerlaptop a{ 
+    display: flex;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: larger;
+    background-color: #871101;
+}
+
+/*responsive*/
+/* MOBIL: */
+@media screen and (max-width:768px){
+    #karrusellaptop{
+        display: none;
+    }
+
+    #stillelivlaptop{
+        display: none;
+    }
+
+    .omplakaten{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: left;
+    }
+
+    #temabilledelaptop{
+        display: none;
+    }
+
+    #laptopmenu{
+        display:none;
+
+    }
+    #mobilmenu{
+        display:flex}
+
+    #footerlaptop{
+        display: none;
+    }
+    }
+        
+/* LAPTOP: */
+@media screen and (min-width:768px){
+    #karruselmobil{
+        display: none;
+    }
+    #stillelivmobil{
+        display: none;
+    }
+
+    #temamobil{
+        display: none;
+    }
+
+    #temabilledemobil{
+        display: none;
+    }
+
+    #laptopmenu{
+        display:flex;
+    }
+
+    #mobilmenu{
+        display:none;
+    }
+
+    #favoritter{
+        display: flex;}
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
     }
 
 }
