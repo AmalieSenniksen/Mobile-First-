@@ -23,6 +23,10 @@ header{
 
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 /*fonte*/
 
 h1{
@@ -47,11 +51,16 @@ h3 /*plakat titel*/ {
     line-height: 20px;
 }
 
-h4 {
+h4 /*størrelse og pris*/ {
     font-family: 'lato', sans-serif;
     font-weight: lighter;
+    color:#871101;
     color: #871101;
     line-height: 30px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 }
 
 p{
@@ -78,6 +87,9 @@ footer p{
     margin-top: 30%;
 }
 
+<<<<<<< HEAD
+/*fake ikoner og mere*/
+=======
 /*ikoner*/
 
 .mobilikoner a{
@@ -85,10 +97,35 @@ footer p{
     justify-content: space-between;
     height: 21px;
 }
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 
 .mobilikoner{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
+    height: 21px;
+    gap:10px;
+    margin-top: 30px;
+}
+
+#laptopikoner{
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+    gap:10px;
+    margin-top: 30px;
+}
+
+.logo{
+    padding: auto;
+}
+
+.some{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+=======
     gap:10px;
     margin-top: 30px;
 }
@@ -112,6 +149,7 @@ footer p{
 
 .logo{
     padding-top: 10px;
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 }
 
 #bruger{
@@ -150,9 +188,10 @@ a{
     border-radius: 20px;
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: grey;
+    font-size: 11px;
     color: white;
     /*font-size: 11px;*/
 }
@@ -199,6 +238,8 @@ a{
     color: #871101;
 }
 
+<<<<<<< HEAD
+=======
 #hvidknap2{
     border-style: none;
     border-radius: 20px;
@@ -213,6 +254,7 @@ a{
     font-weight: lighter;
 }
 
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 #inspirationsknap{
     margin-left: 5%;
     margin-top: 30px;
@@ -248,6 +290,9 @@ a{
 
 #billede3l{
     z-index: 1;
+<<<<<<< HEAD
+   
+=======
     transform: translate(-105%, -10%);
 }
 
@@ -279,6 +324,7 @@ a{
 
 #temabilledelaptop .rødknap{
     margin-left: 10%;
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
 }
 
 /*FORSIDE*/
@@ -382,6 +428,40 @@ footer section p{
     background-color: #871101;
 }
 
+<<<<<<< HEAD
+
+/* --------RESPONSIVE WEBDESIGN-------- */
+
+
+/* MOBIL: */
+@media screen and (max-width:768px){
+    #laptopmenu{
+        display:none;
+    }
+    #mobilmenu{
+        display:flex;
+    }
+    #karrusellaptop{
+        display: none;
+    }
+}
+
+/* LAPTOP: */
+@media screen and (min-width:768px){
+    #laptopmenu{
+        display:flex;
+    }
+    #mobilmenu{
+        display:none;
+    }
+    #karruselmobil{
+        display: none;
+    }
+
+    #favoritter{
+        display: flex;
+
+=======
 .some img{
     height: 70px;
     display: flex;
@@ -459,5 +539,7 @@ footer section p{
 
     #favoritter{
         display: flex;}
+>>>>>>> 0779d3dff733fd6d841824a5cc48886fe19c49e3
     }
 
+}
